@@ -1,0 +1,26 @@
+{
+  "format": "custom",
+  "id": "settings",
+  "label": "settings",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "site_title": {
+        "type": "Text",
+        "config": {
+          "label": "site title",
+          "placeholder": ""
+        }
+      },
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

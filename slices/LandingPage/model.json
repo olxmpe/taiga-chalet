@@ -1,0 +1,36 @@
+{
+  "id": "landing_page",
+  "type": "SharedSlice",
+  "name": "LandingPage",
+  "description": "LandingPage",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
