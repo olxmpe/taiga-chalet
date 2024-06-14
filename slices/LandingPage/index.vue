@@ -53,7 +53,8 @@ const settings = useSettings();
         padding: 1rem 0;
       }
       .logo {
-        height: 10rem;
+        padding: 1rem 0;
+        height: 8rem;
 
         img {
           height: 100%;
